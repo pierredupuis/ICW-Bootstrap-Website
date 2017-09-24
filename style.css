@@ -3,11 +3,45 @@
 	text-align: center;
 }
 
-p
-{
-	text-align: justify;
-}
 nav
 {
 	margin-top: 50px;
+}
+
+.menulink
+{
+	color: black;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.menulink:hover
+{
+	/* text-shadow: 0px 0px 1px black; */
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+article
+{
+	text-align: justify;
+	border: 1px solid black;
+}
+
+#arttitle
+{
+	border-bottom: 1px solid black;
+	padding: 5px 10px 5px 20px;
+	font-size: 1.6em;
+	margin-bottom: 10px;
+}
+h1
+{
+	color: red;
+}
+.artdate
+{
+	text-align: right;
+	font-size: 70%;
 }
